@@ -29,7 +29,7 @@ trainer.train(['What is your name?', 'My name is Ari'])
 trainer.train(['Who are you?','I am God!'])
 trainer.train(['Who created you?', 'A Human', 'You?'])
 
-#trainer.train(clean_conversations)
+trainer.train(clean_conversations)
 
 end_list = ['bye', 'goodbye', 'see you later', 'see you soon', 'au revoir', 'ciao', 'bi', 'bie', 'talk to you later']
 chatbot_bye = ['Bye', 'See you soon', 'Au Revoir', 'Ciao', 'Goodbye']
